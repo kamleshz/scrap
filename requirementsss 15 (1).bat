@@ -1,29 +1,28 @@
 @ECHO OFF
-pip install datetime
-pip install openpyxl
-pip install pandas
-pip install numpy==1.23.5
-pip install pathlib
-pip install pdfkit
-pip install PyPDF2
-pip install xlsx2html
-pip install xlsxwriter
-pip install easygui
-pip install selenium
-pip install webdriver_manager
-pip install pandas
-pip install bs4
-pip install pyxlsb
-pip install pyperclip
-pip install reportlab
-pip install mysql-connector-python
-pip install pymysql
-pip install sqlalchemy
-pip install scikit-learn
-pip install webdriver-manager
-pip install --upgrade --force-reinstall reportlab
-pip install requests
-pip install jsons
-pip install streamlit
-pip install beautifulsoup
+import os
+import re
+import time
+import json
+import math
+import base64
+import pyperclip
+import requests
+import easygui
+import pandas as pd
+import streamlit as st
+
+from PIL import Image
+from lxml import html
+from bs4 import BeautifulSoup
+from datetime import datetime, date
+
+from selenium import webdriver
+from selenium.webdriver.edge.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import WebDriverException
+
 PAUSE
