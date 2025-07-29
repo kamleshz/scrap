@@ -1,6 +1,5 @@
 import streamlit as st
-from datetime import datetime, date
-import pyperclip
+from datetime import datetime
 import math
 import re
 from bs4 import BeautifulSoup
@@ -11,17 +10,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
 import pandas as pd
-import easygui
-import os
-import requests
-import json
 from selenium.webdriver.common.action_chains import ActionChains
 from lxml import html
 from selenium.common.exceptions import WebDriverException
-from selenium.webdriver.common.keys import Keys
-from PIL import Image
 from datetime import datetime
-import base64
 from selenium.webdriver.support import expected_conditions as EC
 
 # --- Set page config ---
